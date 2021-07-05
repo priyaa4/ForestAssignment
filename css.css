@@ -1,0 +1,822 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:hover{
+    transition: all 0.5s ease;
+}
+.home{
+    background: url(img/introimg.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 800px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navcontent{
+    float: right;
+    list-style-type: none;
+}
+.nav{
+    padding: 15px 30px;
+}
+
+.navcontent li {
+    margin-top: 12px;
+    font-weight: 500;
+    display: inline-block;
+    color:white;
+    padding:10px 18px;
+    font-size: 15px;
+    
+}
+#logo a{
+    text-decoration: none;
+    font-weight: 650;
+    font-size: 35px;
+    margin:3px 40px;
+    padding:0;
+    left:10px;
+    color: white;
+    float: left;
+
+}
+.navcontent a{
+    color:white;
+    text-decoration: none;
+}
+.navcontent a:hover{
+    color: #a3c962;
+}
+.homePageText{
+    text-align: center;
+    /* margin: 250px 400px;*/
+    padding: 250px 0px;
+    width:100%;
+    font-family: "Playfair Display" ;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.homePageText h4{
+    font-size: 30px;
+    font-weight: 300;
+}
+.homePageText h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+.homePageText p{
+    font-size: 16px;
+    font-weight: 200;
+}
+.homeButton{
+    display: inline-block;
+    width: 700px;
+    min-height: 50px;
+    margin-top: 70px;
+ 
+}
+.homeButton a{
+    display: inline;
+    text-decoration: none;;
+    padding:10px;
+    margin:10px;
+    border-radius: 20px;
+    width:20px;
+    height: 10px;
+    font-size: 15px;
+    padding:10px 20px;
+    
+}
+#abtBtn {
+    border:2px solid white;
+    display: inline;    
+    background-color: white;
+    color: black;
+  
+}
+#abtBtn:hover{
+    background-color: black;
+    color: white;
+}
+#joinBtn{
+    border:2px solid white;
+    background-color: #a3c962;
+    color: black ;  
+}
+#joinBtn:hover{
+    background-color: black;
+    color: white;
+}
+/* =================================ABOUT============================ */
+.aboutPage{
+    font-family: "Playfair Display","Open Sans" ;
+    padding-top: 20px;
+    height: 750px;
+    margin: 20px 148px 10px 148px;
+
+}
+.aboutTitle{
+    width:100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#aboutH4{
+    font-weight: bold;
+    font-size: 20px;
+    color: #a3c962;
+}
+#aboutH3{
+    font-size: 25px;
+    margin-top:10px;
+    letter-spacing: 2px;
+}
+#aboutPara1{
+    margin-top:25px;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+.aboutBox{
+    display: flex;
+}
+.imgHerb{
+    padding:0px 115px 0px 85px
+}
+.aboutContent{
+    padding:0px 20px;
+    
+}
+.aboutContent h3{
+    color: #a3c962;
+    font-size: 20px;
+}
+.aboutContent h5{
+    font-size:30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 35px;
+    padding-bottom:10px;
+}
+.aboutContent p{
+    font-family: "Open Sans";
+    color: gray;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 2;
+    font-size: 20px;
+}
+.aboutCircles{
+    display: flex;
+   
+}
+.aboutCircles img{
+    width: 190px;
+    height: 180px;
+}
+.aboutTextCircles h4{
+    display: inline;
+    font-family: "Playfair Display";
+    font-size: 24px;;
+    font-weight: 100;
+
+}
+#SavePlantCircle{
+    padding:35px;
+}
+#plantingCircle{
+    padding:55px;
+}
+#treesCircle{
+    padding:45px;
+}
+/* ==========================================Services===================================== */
+.services{
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/17-12-2018/forest-demo_Free/2069386206/web/images/s1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 750px;
+    color: white;
+
+}
+.servicesContainer, .featuresContainer,.clientsContainer,.volunteerContainer,.contactContainer{
+    margin: 0px 189px 0px 189px;
+    padding-bottom: 40px;
+}
+.servicesTitle, .featuresTitle,.clientsTitle,.volunteerTitle,.contactTitle{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.servicesSubTitle, .featuresSubTitle,.clientsSubTitle,.volunteerSubTitle,.contactSubTitle{
+    margin-left: 40px;
+    font-family: "Playfair Display";
+}
+.servicesSubTitle h4,.featuresSubTitle h4,.clientsSubTitle h4,.volunteerSubTitle h4,.contactSubTitle h4{
+    color: #a3c962;
+    font-size:25px;
+
+}
+.servicesSubTitle h3,.featuresSubTitle h3,.clientsSubTitle h3,.volunteerSubTitle h3,.contactSubTitle h3{
+    font-size: 37px;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.servicesTitle p,.featuresTitle p, .clientsTitle p,.volunteerTitle p,.contactTitle p{
+    font-weight: 400;
+    color:rgb(233, 225, 225);
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-family: "Open Sans";
+    text-align: right;
+    width:500px;
+}
+.servicesBoxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicesBox{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 250px;
+    width:333px;
+    margin: 20px;
+    padding:20px;
+}
+.servicesBox:hover{
+    background-color: gainsboro;
+
+}
+.ServicesBoxInside{
+    padding-top: 30px;
+}
+.ServicesBoxInside h4{
+    color: #a3c962;
+    font-weight: 800;
+    font-size: 25px;
+}
+.ServicesBoxInside p{
+    margin-top:20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+i{
+    margin-top: 20px;
+    font-size:40px;
+}
+/* ================================Gallery================================= */
+.galleryPage{
+    font-family: "Playfair Display","Open Sans" ;
+    padding-top: 20px;
+    height: 1250px;
+    margin: 20px 148px 10px 148px;
+}
+.galleryContainer{
+    height:1250px;
+}
+.galleryTitle,.plansTitle,.blogTitle{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center ;
+    padding: 10px 50px 10px 200px;
+    
+}
+.galleryTopic,.plansTopic,.blogTopic{
+    width:300px;
+    text-align: right;
+}
+.galleryTopic h4,.plansTopic h4,.blogTopic h4{
+    color: #a3c962 ;
+    font-size: 20px;
+
+}
+.galleryTopic h3,.plansTopic h3,.blogTopic h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    
+}
+
+.galleryTitle p,.plansTitle p,.blogTitle p{
+    margin-left: 20px;
+    text-align: left;
+    width: 460px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+
+}
+.galleryImages{
+    margin-top: 20px;
+    height:1200px;
+    display: flex;
+}
+.galleryImages1{
+    margin-right: 30px;
+    width: 49%;
+    height:1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.galleryImages2{
+    width:49%;
+    height:1100px;
+}
+#img1{
+    width: 99%;
+    padding: 2px 2px 0px 2px;
+    height: 450px;
+}
+#img2{
+    width: 50%;
+    padding: 0px 2px 2px 2px;
+    height: 200px;
+}
+#img3{
+    width: 50%;
+    padding: 0px 2px 0px 2px;
+    height: 200px;
+
+}
+#img4{
+    width: 99%;
+    padding: 0px 2px 0px 2px;
+    height: 405px;
+
+}
+#img5{
+    padding-bottom: 128px;
+    margin-right: 30px;
+}
+#img7{
+    padding-top: 20px;
+    margin-right: 30px;
+}
+#img9{
+    width: 540px;
+    padding-top: 30px;
+}
+.success{
+    height:195px;
+    margin-top: 27px;
+    background-color: #a3c962;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+.success i{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.success h5{
+    color:black;
+    font-size: 25px;
+}
+.success h6{
+    font-size: 25px;
+    padding-top: 15px;
+}
+/* ============================Features========================================= */
+.featuresContainer{
+    padding-bottom: 0px;
+}
+.features p{
+    color:black;
+}
+
+.featuresBoxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.features3Box{
+    width: 730px;
+    height: 545px;
+    margin-left: 10px;
+}
+
+.featuresSubBox{
+    display: flex;
+    flex-flow: column wrap;
+    width:640px;
+    height: 140px;
+    margin: 0px 0px 25px 50px;
+    border-radius: 8px;
+    box-shadow: 5px 2px 13px 3px grey;
+}
+.featuresWraps{
+    display: flex;
+
+}
+.featuresLogoLeft{
+    text-align: center;
+    align-items: center;
+    width:280px;
+    height:140px;   
+
+    padding-top: 20px;
+
+}
+.featuresRight{
+    padding-top: 20px;
+    width: 350px;
+}
+/* =========================PLANS==================================== */
+.plans{
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/17-12-2018/forest-demo_Free/2069386206/web/images/b2.jpg) no-repeat center;
+    background-size: cover;
+    height: 669px;
+}
+.plansTitle{
+    padding-top: 100px !important;
+    margin-bottom: 50px;
+}
+.plansTitle h4{
+    font-size: 25px;
+}
+.plansTitle h3{
+    color: white;
+}
+.plansTitle p{
+    color: rgb(219, 219, 219);
+}
+.plansContainer{
+    height: 740px;
+    margin: 20px 148px 10px 148px;
+
+}
+
+.plansBoxes{
+    display: flex;
+    height: 500px;
+    width:1250px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plansBox{
+    padding-top:20px;
+    text-align: center;
+    height: 370px;
+    width:250px;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.plansBox h4{
+    color:#a3c962;
+    font-size: 25px;
+}
+.plansBox h3{
+    padding: 25px 0px 25px 0px;
+    font-weight: 100;
+}
+.plansBox span{
+    font-size: 30px;
+    color: #a3c962;
+    font-weight: 600;
+}
+.plansBox p{
+    color:gray;
+    padding:0px 70px 20px 70px;
+    line-height: 2;
+}
+.plansBox a{
+    background-color: #a3c962;
+    color:white;
+    text-decoration: none;
+    padding: 7px 25px 10px 25px;
+    border-radius: 20px;
+}
+.plansBox a:hover{
+    background-color: black;
+}
+/* ===================================================CLIENTS================================ */
+.clients{
+    height:600px;
+}
+.clientsSubTitle h4{
+    letter-spacing: 1px !important;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+.clientsSubTitle h3{
+    font-size: 37px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.clientsTitle p{
+    color:black !important;
+}
+.clientsBoxes{
+    display: flex;
+    height: 380px;
+}
+.clientsBox{
+    margin:10px 10px 10px 10px;
+    height: 350px;
+    width:390px;
+}
+.clientsBox img{
+    width:155px;
+    height: 150px;
+    border: 2px solid rgb(231, 228, 228);
+    border-radius: 8px;
+    padding:2px;
+    margin-bottom: 10px;
+}
+.clientsBox h4{
+
+    margin-bottom: 5px;
+    color: #a3c962;
+    font-size: 28px;
+}
+.clientsBox h6{
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.clientsBox p{
+    color: rgb(83, 83, 83);
+    line-height: 1.8;
+    font-family: "Playfair Display";
+    letter-spacing: 1px;
+    font-size: 16.5px;
+}
+/* =======================PLAY BUTTON================================== */
+.play{
+    height:350px;
+    background-color: #a3c962;
+}
+.playContainer{
+    margin:0px 148px 20px 148px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.playButton i{
+    font-size: 30px;
+    padding:20px;
+    background-color: white;
+    border-radius: 50%;
+}
+.playButton i:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.playHeading h3{
+    margin-top:30px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.playHeading p{
+    color: rgb(65, 65, 65);
+    letter-spacing: 1.2px;
+
+}
+/* ==============================Volunteer===================== */
+.volunteer{ 
+    height: 650px;
+}
+.volunteerTitle p{
+    color:rgb(121, 121, 121);
+}
+.volunteerContainer{
+    height:650px;
+}
+.volunteerPeople{
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.volunteerBox{
+    text-align: center;
+
+}
+.volunteerBox h3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    color:#a3c962;
+    font-size: 25px;
+}
+.volunteerBox h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.volunteerlinks i,.footerlinks i{
+    font-size: 15px;
+}
+.volunteerlinks a,.footerlinks a{
+    text-decoration: none;
+    color: white;
+    margin: 5px 5px 10px 5px;
+    padding: 0px 0px 0px 3px;
+    border: 7px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+.volunteerlinks a:hover,.footerlinks a:hover{
+    color:#a3c962;
+}
+/* ===========================================Blog==================================== */
+.blog{
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/17-12-2018/forest-demo_Free/2069386206/web/images/b1.jpg) no-repeat center;
+    background-size: cover;
+    font-family: "Playfair Display","Open Sans" ;
+    padding-top: 20px;
+    height: 750px;
+
+}
+.blogTitle h3{
+    color:white !important;
+}
+.blogTitle p{
+    color: gainsboro;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    
+}
+.blogContainer{
+    margin: 20px 148px 10px 148px;
+    height: 700px;
+}
+.blogBoxes{
+    display: flex;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.blogBox{
+    width:350px;
+    height: 460px;
+    background-color: white;
+    padding:20px 20px 20px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+  
+}
+.blogImg{
+    width:100%;
+    
+}
+.blogBox h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Playfair Display';
+}
+.blogHeading{
+    text-decoration: none;
+    color:#a3c962;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: "Playfair Display";
+
+}
+.blogP{
+    margin: 10px 0px 10px 0px;
+    font-size: 17px;
+    line-height: 1.5;
+    color:rgb(97, 94, 94);
+    font-size: 100;
+
+}
+.blogTags{
+    display: flex;
+    justify-content: space-between;
+
+}
+.blogTags a{
+    color:black;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-decoration: none;
+
+}
+/* ========================CONTACT============================ */
+.contact{
+    height: 700px;
+}
+.contactTitle p{
+    color:rgb(104, 104, 104);
+}
+.contactBoxes{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 450px;
+    width:100%; 
+}
+.contactBoxLeft{
+    width: 575px;
+    margin-left: 20px;
+ 
+}
+.contactBoxLeft input{
+    background-color: rgb(226, 226, 226);
+    width:100%;
+    margin: 10px;
+    font-size: 15px;
+    padding:14px;
+    border: 3px solid rgb(226, 226, 226);
+    box-shadow: 0px 2px 1px -1px black;
+}
+.contactBoxLeft textarea{
+    background-color: rgb(226, 226, 226);
+    width:100%;
+    margin: 10px;
+    font-size: 15px;
+    padding:14px;
+    resize: none;
+    border: 3px solid rgb(226, 226, 226);
+    box-shadow: 0px 2px 1px -1px black;
+}
+.contactBoxLeft input:focus,.contactBoxLeft textarea:focus{
+    outline: none;
+    border: 3px solid rgb(118, 197, 228) !important;
+    transition: 0.5s;
+    background-color: white;
+    box-shadow: none !important;
+}
+
+.contactBoxLeft button{
+    width:100%;
+    margin: 0px 10px 10px 10px;
+    padding:14px;
+    border: none;
+    background-color: #a3c962;
+    color:white;
+    border-radius: 20px;
+
+}
+.contactBoxRight{
+    border: 2px solid black;
+    width:500px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.contactBox{
+    width:100%;
+    height: 130px;
+    display: flex;
+    
+}
+.contactInsideLeft{
+    width: 25%;
+    text-align: center;
+    padding-top:25px;
+}
+.contactInsideRight{
+    width: 75%; 
+    line-height: 2;
+}
+.contactInsideRight h3{
+    color:#a3c962;
+    font-size: 26px;
+
+}
+.contactInsideRight p{
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(99, 99, 99);
+}
+/* ===============================FOOTER============================================ */
+.footer{
+    padding-top: 20px;
+    background-color: #a3c962;
+    color:white;
+    height: 200px;
+    text-align: center;
+}
+.footer h4 a{
+    text-decoration: none;
+    color:black;
+    font-size: 100;
+}
+#up i{
+    background-color: black;
+    color: white;
+    padding: 1px 2px 1px 2px;
+    border:4px solid black;
+    border-radius: 50%;
+
+}
+
+
